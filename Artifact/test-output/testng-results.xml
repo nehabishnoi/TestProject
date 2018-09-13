@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="75757" started-at="2018-09-10T21:34:51Z" finished-at="2018-09-10T21:36:07Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="75757" started-at="2018-09-10T21:34:51Z" finished-at="2018-09-10T21:36:07Z">
+      <class name="Group.Artifact.AppTest">
+        <test-method status="PASS" signature="Browser()[pri:0, instance:Group.Artifact.AppTest@49993335]" name="Browser" duration-ms="75657" started-at="2018-09-10T21:34:51Z" finished-at="2018-09-10T21:36:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browser -->
+      </class> <!-- Group.Artifact.AppTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
