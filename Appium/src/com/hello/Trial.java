@@ -29,7 +29,7 @@ public class Trial {
 		driver.get("https://www.google.com");
 		driver.findElement(By.name("q")).sendKeys("Neha Rani");
 		driver.pressKeyCode(66);
-		Thread.sleep(6000);
+		Thread.sleep(5000);
 		driver.quit();
 	}
 
