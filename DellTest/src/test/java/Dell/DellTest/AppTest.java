@@ -39,7 +39,7 @@ public class AppTest {
 		public void test() throws InterruptedException {
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		driver.get("https://www.google.com");
-		driver.findElement(By.name("q")).sendKeys("Neha Rani");
+		driver.findElement(By.name("q")).sendKeys("Appium");
 		driver.pressKeyCode(66);
 	Thread.sleep(4000);
 		}
