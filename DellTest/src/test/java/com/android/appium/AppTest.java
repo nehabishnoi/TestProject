@@ -1,4 +1,4 @@
-package Dell.DellTest;
+package com.android.appium;
 
 import java.net.MalformedURLException;
 import java.net.URL;
