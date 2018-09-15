@@ -20,9 +20,6 @@ public class AppTest {
 
 	AndroidDriver<MobileElement> driver;
 
-	// public static void main(String[] args) throws InterruptedException,
-	// MalformedURLException {
-
 	@BeforeMethod
 	public void setup() throws MalformedURLException {
 
@@ -35,17 +32,18 @@ public class AppTest {
 		cap.setCapability(MobileCapabilityType.BROWSER_NAME, "Chrome");
 		driver = new AndroidDriver<MobileElement>(new URL("https://0.0.0.0:4723/wd/hub"), cap);
 	}
-		@Test
-		public void test() throws InterruptedException {
+
+	@Test
+	public void test() throws InterruptedException {
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		driver.get("https://www.google.com");
 		driver.findElement(By.name("q")).sendKeys("Appium");
 		driver.pressKeyCode(66);
-	Thread.sleep(4000);
-		}
-		
-		@AfterMethod
-		public void teardown() {
-		driver.quit();
-		}
+		Thread.sleep(4000);
 	}
+
+	@AfterMethod
+	public void teardown() {
+		driver.quit();
+	}
+}
