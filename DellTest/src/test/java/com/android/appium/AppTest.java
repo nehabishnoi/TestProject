@@ -39,7 +39,7 @@ public class AppTest {
 		driver.get("https://www.google.com");
 		driver.findElement(By.name("q")).sendKeys("Appium");
 		driver.pressKeyCode(66);
-		Thread.sleep(4000);
+		Thread.sleep(5000);
 	}
 
 	@AfterMethod
