@@ -18,11 +18,11 @@
 			<groupId>org.testng</groupId>
 			<artifactId>testng</artifactId>
 			<version>6.10</version>
-			<scope>test</scope>
+			<scope>compile</scope>
 		</dependency>
 
 		<!-- https://mvnrepository.com/artifact/commons-io/commons-io -->
-		
+
 
 
 		<!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
@@ -32,14 +32,19 @@
 			<version>3.0.0</version>
 			<scope>provided</scope>
 		</dependency>
-		
+
 		<!-- https://mvnrepository.com/artifact/org.apache.pdfbox/pdfbox -->
-<dependency>
-    <groupId>org.apache.pdfbox</groupId>
-    <artifactId>pdfbox</artifactId>
-    <version>2.0.12</version>
-</dependency>
-		
+		<dependency>
+			<groupId>org.apache.pdfbox</groupId>
+			<artifactId>pdfbox</artifactId>
+			<version>2.0.12</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.maven.surefire</groupId>
+			<artifactId>surefire-testng</artifactId>
+			<version>2.22.1</version>
+
+		</dependency>
 
 	</dependencies>
 
