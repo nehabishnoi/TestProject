@@ -10,6 +10,8 @@
 	<test thread-count="5" name="Test">
 		<classes>
 			<class name="com.pluralsight.UnitTest" />
+			<class name="com.pluralsight.RegressionTest"/>
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->
+	
