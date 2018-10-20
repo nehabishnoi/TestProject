@@ -15,6 +15,11 @@ public class Pages {
 		return new Findus();
 	}
 
+	public static Accessibility accessibility() {
+		
+		return new Accessibility();
+	}
+
 	
 
 

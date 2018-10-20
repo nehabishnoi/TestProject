@@ -3,11 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Dell.DellTest.AppTest">
+      <class name="com.android.appium.AppTest">
         <methods>
+          <include name="test"/>
           <include name="setup"/>
+          <include name="teardown"/>
         </methods>
-      </class> <!-- Dell.DellTest.AppTest -->
+      </class> <!-- com.android.appium.AppTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -1,7 +1,7 @@
 package com.pluralsight;
 
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 
 public class Browser {
 
@@ -9,8 +9,12 @@ public class Browser {
 
 	public static void goTo(String url) {
 
-		System.setProperty("webdriver.gecko.driver", "E:/geckodriver.exe");
-		driver = new FirefoxDriver();
+		
+		System.setProperty("webdriver.chrome.driver", "E:/ChromeDriver.exe");
+		driver = new ChromeDriver();
+		driver.manage().window().maximize();
+	//	driver.manage().timeouts().pageLoadTimeout(TestUtil.PAGE_LOAD_OUT,TimeUnit.SECONDS);
+		//driver.manage().timeouts().implicitlyWait(TestUtil.IMPLICIT_WAIT,TimeUnit.SECONDS);
 		driver.get(url);
 
 	}

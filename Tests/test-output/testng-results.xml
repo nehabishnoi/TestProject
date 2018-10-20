@@ -2,36 +2,36 @@
 <testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="57494" started-at="2018-09-27T19:41:51Z" finished-at="2018-09-27T19:42:48Z">
+  <suite name="Default suite" duration-ms="36334" started-at="2018-09-29T22:21:25Z" finished-at="2018-09-29T22:22:01Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="57494" started-at="2018-09-27T19:41:51Z" finished-at="2018-09-27T19:42:48Z">
-      <class name="com.pluralsight.UnitTest">
-        <test-method status="PASS" signature="canGoToHomePage()[pri:1, instance:com.pluralsight.UnitTest@224edc67]" name="canGoToHomePage" duration-ms="20516" started-at="2018-09-28T01:11:51Z" finished-at="2018-09-28T01:12:11Z">
+    <test name="Default test" duration-ms="36334" started-at="2018-09-29T22:21:25Z" finished-at="2018-09-29T22:22:01Z">
+      <class name="com.pluralsight.RegressionTest">
+        <test-method status="PASS" signature="canGoToHomePage()[pri:1, instance:com.pluralsight.RegressionTest@224edc67]" name="canGoToHomePage" duration-ms="11553" started-at="2018-09-30T03:51:25Z" finished-at="2018-09-30T03:51:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- canGoToHomePage -->
-        <test-method status="PASS" signature="clean()[pri:0, instance:com.pluralsight.UnitTest@224edc67]" name="clean" is-config="true" duration-ms="273" started-at="2018-09-28T01:12:11Z" finished-at="2018-09-28T01:12:12Z">
+        <test-method status="PASS" signature="clean()[pri:0, instance:com.pluralsight.RegressionTest@224edc67]" name="clean" is-config="true" duration-ms="2448" started-at="2018-09-30T03:51:36Z" finished-at="2018-09-30T03:51:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clean -->
-        <test-method status="PASS" signature="canGoToHelpPage()[pri:2, instance:com.pluralsight.UnitTest@224edc67]" name="canGoToHelpPage" duration-ms="19897" started-at="2018-09-28T01:12:12Z" finished-at="2018-09-28T01:12:31Z">
+        <test-method status="PASS" signature="canGoToHelpPage()[pri:2, instance:com.pluralsight.RegressionTest@224edc67]" name="canGoToHelpPage" duration-ms="8814" started-at="2018-09-30T03:51:39Z" finished-at="2018-09-30T03:51:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- canGoToHelpPage -->
-        <test-method status="PASS" signature="clean()[pri:0, instance:com.pluralsight.UnitTest@224edc67]" name="clean" is-config="true" duration-ms="413" started-at="2018-09-28T01:12:31Z" finished-at="2018-09-28T01:12:32Z">
+        <test-method status="PASS" signature="clean()[pri:0, instance:com.pluralsight.RegressionTest@224edc67]" name="clean" is-config="true" duration-ms="2400" started-at="2018-09-30T03:51:47Z" finished-at="2018-09-30T03:51:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clean -->
-        <test-method status="PASS" signature="canGoToFindusPage()[pri:3, instance:com.pluralsight.UnitTest@224edc67]" name="canGoToFindusPage" duration-ms="14737" started-at="2018-09-28T01:12:32Z" finished-at="2018-09-28T01:12:47Z">
+        <test-method status="PASS" signature="canGoToFindusPage()[pri:3, instance:com.pluralsight.RegressionTest@224edc67]" name="canGoToFindusPage" duration-ms="8900" started-at="2018-09-30T03:51:50Z" finished-at="2018-09-30T03:51:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- canGoToFindusPage -->
-        <test-method status="PASS" signature="clean()[pri:0, instance:com.pluralsight.UnitTest@224edc67]" name="clean" is-config="true" duration-ms="1609" started-at="2018-09-28T01:12:47Z" finished-at="2018-09-28T01:12:48Z">
+        <test-method status="PASS" signature="clean()[pri:0, instance:com.pluralsight.RegressionTest@224edc67]" name="clean" is-config="true" duration-ms="2159" started-at="2018-09-30T03:51:59Z" finished-at="2018-09-30T03:52:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clean -->
-      </class> <!-- com.pluralsight.UnitTest -->
+      </class> <!-- com.pluralsight.RegressionTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
